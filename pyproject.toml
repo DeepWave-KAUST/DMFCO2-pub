@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dmfco2"
+authors = [
+    {name = "Vittoria De Pellegrini", email = "vittoria.depellegrini@kaust.edu.sa"},
+]
+description = "Diffusion Models x CO₂ Geological Storage"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["deep-learning", "co2-monitoring", "geological-co2-storage", "heterogeneous-geological-formations", "co2-forecasting", "conditional-diffusion-models"]
+license = {text = "BSD 3-Clause License"}
+classifiers = [
+        "Intended Audience :: Science/Research",
+        "Natural Language :: English",
+        "Programming Language :: Python :: 3.9",
+        "Topic :: Scientific/Engineering :: Mathematics",
+    ]
+dependencies = [
+//        "numpy >= 2.0.2",
+//        "torch >= 2.5.1+cu124",
+// 	      "setuptools >= 53.0.0",
+    ]
+    
+dynamic = ["version"]
+
+[tool.setuptools.packages]
+find = {}
